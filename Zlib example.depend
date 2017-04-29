@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1493491783 source:c:\users\imanol\documents\code\c++\zlib example\main.cpp
+	<iostream>
+	<zlib.h>
+	<cstdio>
+	<string>
+	<bitset>
+	<iomanip>
+	<map>
+	<vector>
+
+1484483380 c:\users\imanol\downloads\zlib1211\zlib-1.2.11\zlib.h
+	"zconf.h"
+
+1489867456 c:\users\imanol\downloads\zlib1211\zlib-1.2.11\zconf.h
+	<stddef.h>
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
