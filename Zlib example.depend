@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1493491783 source:c:\users\imanol\documents\code\c++\zlib example\main.cpp
+1493825652 source:c:\users\imanol\documents\code\c++\zlib example\main.cpp
 	<iostream>
 	<zlib.h>
 	<cstdio>
@@ -8,6 +8,10 @@
 	<iomanip>
 	<map>
 	<vector>
+	<algorithm>
+	<zip.h>
+	<memory>
+	<fstream>
 
 1484483380 c:\users\imanol\downloads\zlib1211\zlib-1.2.11\zlib.h
 	"zconf.h"
@@ -21,4 +25,19 @@
 	<stddef.h>
 	<unistd.h>
 	<unixio.h>
+
+1493828658 c:\users\imanol\documents\code\c++\zlib example\src\zip.h
+	<iostream>
+	<zlib.h>
+	<cstdio>
+	<string>
+	<bitset>
+	<iomanip>
+	<map>
+	<vector>
+	<algorithm>
+	<memory>
+	<fstream>
+	<type_traits>
+	<cassert>
 
