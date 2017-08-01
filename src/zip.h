@@ -98,7 +98,7 @@ struct EndOfCentralDirectory {
     /** offset 20*/ U16        commentlength;
 };
 
-char * Compression_Method[20] = {
+std::string Compression_Method[20] = {
     "Stored",
     "Shrunk",
     "Reduced with compression factor 1",
@@ -203,6 +203,12 @@ public:
 
         tmpFile = m_FileCollection[FileName];
 
+        if(tmpFile == nullptr)
+        {
+            std::cout << "error" << std::endl;
+            return nullptr;
+        }
+
         struct CompressionInfo{
             uint16_t CompMethod;
             uint32_t CompressedSize;
@@ -232,6 +238,7 @@ public:
             break;
             default:
                 std::cout << "This compression method is not supported yet." << std::endl;
+                return nullptr;
                 break;
         }
 
@@ -327,7 +334,6 @@ private:
 
     size_t InflateFile(unsigned char* inputFileStream, uInt inputStreamSize, unsigned char* outputFileStream, uInt outputstreamSize, size_t windowBits) {
         z_stream infstream;
-        unsigned char *c = new Bytef[outputstreamSize];
         infstream.zalloc = Z_NULL;
         infstream.zfree = Z_NULL;
         infstream.opaque = Z_NULL;

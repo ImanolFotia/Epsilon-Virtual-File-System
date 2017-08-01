@@ -42,6 +42,7 @@
 		</Compiler>
 		<Unit filename="main.cpp" />
 		<Unit filename="src/File.h" />
+		<Unit filename="src/filesystem.h" />
 		<Unit filename="src/zip.h" />
 		<Extensions>
 			<code_completion />
