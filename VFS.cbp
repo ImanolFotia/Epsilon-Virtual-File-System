@@ -18,7 +18,7 @@
 					<Add option="-std=c++11" />
 					<Add option="-g" />
 					<Add directory="../../../../Downloads/zlib1211/zlib-1.2.11" />
-					<Add directory="src" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add library="../../../../Downloads/zlib1211/zlib-1.2.11/build/libzlibstatic.a" />
@@ -41,12 +41,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="include/File.h" />
+		<Unit filename="include/filesystem.h" />
+		<Unit filename="include/zip.h" />
 		<Unit filename="src/File.cpp" />
-		<Unit filename="src/File.h" />
-		<Unit filename="src/filesystem.h" />
 		<Unit filename="src/zip.cpp" />
-		<Unit filename="src/zip.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
