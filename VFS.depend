@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1511995882 source:c:\users\imanol\documents\code\c++\zlib example\main.cpp
+	<iostream>
+	<string>
+	<memory>
+	<filesystem.h>
+
+1484483380 c:\users\imanol\downloads\zlib1211\zlib-1.2.11\zlib.h
+	"zconf.h"
+
+1489867456 c:\users\imanol\downloads\zlib1211\zlib-1.2.11\zconf.h
+	<stddef.h>
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1511909230 c:\users\imanol\documents\code\c++\zlib example\src\zip.h
+	<iostream>
+	<zlib.h>
+	<cstdio>
+	<string>
+	<bitset>
+	<iomanip>
+	<map>
+	<unordered_map>
+	<vector>
+	<algorithm>
+	<memory>
+	<fstream>
+	<type_traits>
+	<cassert>
+	<File.h>
+
+1511995897 c:\users\imanol\documents\code\c++\zlib example\src\file.h
+	<memory>
+	<string>
+	<fstream>
+	<cstdint>
+	<cstring>
+
+1511997481 c:\users\imanol\documents\code\c++\zlib example\src\filesystem.h
+	<zip.h>
+	<unordered_map>
+	<string>
+	<fstream>
+	<sys/stat.h>
+
+1511991584 source:c:\users\imanol\documents\code\c++\zlib example\src\file.cpp
+	<File.h>
+	<filesystem.h>
+
+1511906202 source:c:\users\imanol\documents\code\c++\zlib example\src\filesystem.cpp
+	<filesystem.h>
+
+1511997584 source:c:\users\imanol\documents\code\c++\zlib example\src\zip.cpp
+	<zip.h>
+
