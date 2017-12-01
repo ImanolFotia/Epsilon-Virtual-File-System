@@ -34,6 +34,7 @@ int main(int argc, char** argv)
 ```
 
 ## License
+### The MIT License
 <pre>
 Copyright 2017 Imanol Fotia
 
