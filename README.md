@@ -17,7 +17,7 @@ int main(int argc, char** argv)
 {
   Filesystem::Mount("container.zip");
 
-  std::shared_ptr<File> myFile = Filesystem::Open("file.txt");
+  std::shared_ptr<File> myFile = Filesystem::Open<std::shared_ptr<File> >("file.txt");
   
   char fileContent[myFile->SizeUncomp];
   
