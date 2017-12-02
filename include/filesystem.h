@@ -55,9 +55,10 @@ __stdcall static bool Unmount(std::string name) {
     return true;
 }
 
-__stdcall static std::shared_ptr<File> open(std::string name) {
+template <typename T>
+__stdcall static T open(std::string name) {
 
-    std::shared_ptr<File> outFile;
+    T outFile;
 
     for(auto container: m_Container) {
         outFile = container.second->getFileByName(name);

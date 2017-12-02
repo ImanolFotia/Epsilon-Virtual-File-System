@@ -59,3 +59,34 @@
 1511997584 source:c:\users\imanol\documents\code\c++\zlib example\src\zip.cpp
 	<zip.h>
 
+1511995897 c:\users\imanol\documents\code\c++\zlib example\include\file.h
+	<memory>
+	<string>
+	<fstream>
+	<cstdint>
+	<cstring>
+
+1512252312 c:\users\imanol\documents\code\c++\zlib example\include\filesystem.h
+	<zip.h>
+	<unordered_map>
+	<string>
+	<fstream>
+	<sys/stat.h>
+
+1511909230 c:\users\imanol\documents\code\c++\zlib example\include\zip.h
+	<iostream>
+	<zlib.h>
+	<cstdio>
+	<string>
+	<bitset>
+	<iomanip>
+	<map>
+	<unordered_map>
+	<vector>
+	<algorithm>
+	<memory>
+	<fstream>
+	<type_traits>
+	<cassert>
+	<File.h>
+
